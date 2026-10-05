@@ -10,7 +10,7 @@ https://developers.google.com/admob/ios/quick-start
 https://developers.google.com/admob/ios/privacy
 
 
-======================================================================
+============================================================
 eruda 3.4.3
 Declared license: MIT
 Repository: {'type': 'git', 'url': 'git+https://github.com/liriliri/eruda.git'}
@@ -39,7 +39,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-======================================================================
+============================================================
 eruda-code 2.2.0
 Declared license: See LICENSE file
 Repository: 
@@ -67,7 +67,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-======================================================================
+============================================================
 eruda-dom 2.0.0
 Declared license: MIT
 Repository: {'type': 'git', 'url': 'git+https://github.com/liriliri/eruda-dom.git'}
@@ -95,7 +95,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-======================================================================
+============================================================
 eruda-features 2.1.0
 Declared license: MIT
 Repository: 
@@ -123,7 +123,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-======================================================================
+============================================================
 eruda-fps 2.0.0
 Declared license: MIT
 Repository: {'type': 'git', 'url': 'git+https://github.com/liriliri/eruda-fps.git'}
@@ -151,7 +151,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-======================================================================
+============================================================
 eruda-timing 2.0.1
 Declared license: MIT
 Repository: {'type': 'git', 'url': 'git+https://github.com/liriliri/eruda-timing.git'}
@@ -179,7 +179,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-======================================================================
+============================================================
 eruda-vue 1.1.1
 Declared license: MIT
 Repository: 
@@ -208,7 +208,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-======================================================================
+============================================================
 eruda-vue-devtools 1.0.1
 Declared license: MIT
 Repository: {'type': 'git', 'url': 'git+https://github.com/Zippowxk/vue-vconsole-devtools.git'}
@@ -237,7 +237,7 @@ THIRD-PARTY.txt
  */
 
 
-======================================================================
+============================================================
 vconsole 3.15.1
 Declared license: MIT
 Repository: {'type': 'git', 'url': 'git+https://github.com/Tencent/vConsole.git'}
@@ -253,7 +253,7 @@ If you have downloaded a copy of the vConsole source code from Tencent, please n
 
 A copy of the MIT License is included in this file.
 
-======================================================================
+============================================================
 vue-vconsole-devtools 1.0.9
 Declared license: MIT
 Repository: {'type': 'git', 'url': 'git+https://github.com/Zippowxk/vue-vconsole-devtools.git'}

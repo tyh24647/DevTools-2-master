@@ -1,0 +1,6 @@
+DerivedData/*,
+Tests/*,
+.gitignore.swp,
+github_ssh_key,
+github_ssh_keygen,
+
