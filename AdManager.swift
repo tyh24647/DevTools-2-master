@@ -62,8 +62,10 @@ final class AdManager: NSObject, ObservableObject, FullScreenContentDelegate {
         privacyOptionsRequired = ConsentInformation.shared.privacyOptionsRequirementStatus == .required
         if canRequestAds && !started {
             started = true
+#if os(iOS)
             await MobileAds.shared.start()
             await loadAds()
+#endif
         }
     }
 
@@ -77,7 +79,9 @@ final class AdManager: NSObject, ObservableObject, FullScreenContentDelegate {
         } else if started {
             canRequestAds = ConsentInformation.shared.canRequestAds
             Task {
+#if os(iOS)
                 await loadAds()
+#endif
             }
         }
     }
