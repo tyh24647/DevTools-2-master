@@ -1,0 +1,4 @@
+module UserMessagingPlatformTarget {
+umbrella "/Users/Shared/DevTools-2-master/DerivedData/DevTools/SourcePackages/checkouts/swift-package-manager-google-user-messaging-platform/UserMessagingPlatformTarget/include"
+export *
+}

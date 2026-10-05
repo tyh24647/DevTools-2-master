@@ -1,0 +1,24 @@
+{
+  "source": "/Users/tylerhostager/Documents/Xcode Projects/DevTools/App/DevToolsApp.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "DevTools",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 49
+        }
+      }
+    ]
+  },
+  "version": 1
+}

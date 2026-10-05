@@ -1,0 +1,5 @@
+DEVELOPMENT_TEAM = YOUR_TEAM_ID
+// Change all three together if the defaults are not available to your developer account.
+DT_BUNDLE_PREFIX = com.tyh24647.DevTools
+DT_APP_GROUP = group.com.tyh24647.DevTools
+// Product IDs are also declared in App/PurchaseStore.swift and DevTools.storekit.

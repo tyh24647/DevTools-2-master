@@ -1,0 +1,13 @@
+{
+  "" : {
+    "dependencies" : "/Users/Shared/DevTools-2-master/DerivedData/DevTools/Index.noindex/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphoneos/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget-primary.d",
+    "diagnostics" : "/Users/Shared/DevTools-2-master/DerivedData/DevTools/Index.noindex/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphoneos/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget-primary.dia",
+    "emit-module-dependencies" : "/Users/Shared/DevTools-2-master/DerivedData/DevTools/Index.noindex/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphoneos/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/Shared/DevTools-2-master/DerivedData/DevTools/Index.noindex/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphoneos/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget-primary-emit-module.dia",
+    "pch" : "/Users/Shared/DevTools-2-master/DerivedData/DevTools/Index.noindex/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphoneos/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/Shared/DevTools-2-master/DerivedData/DevTools/Index.noindex/Build/Intermediates.noindex/GoogleMobileAds.build/Debug-iphoneos/GoogleMobileAdsTarget-t.build/Objects-normal/arm64/GoogleMobileAdsTarget-primary.swiftdeps"
+  },
+  "/Users/Shared/DevTools-2-master/DerivedData/DevTools/SourcePackages/checkouts/swift-package-manager-google-mobile-ads/GoogleMobileAdsTarget/placeholder.swift" : {
+
+  }
+}

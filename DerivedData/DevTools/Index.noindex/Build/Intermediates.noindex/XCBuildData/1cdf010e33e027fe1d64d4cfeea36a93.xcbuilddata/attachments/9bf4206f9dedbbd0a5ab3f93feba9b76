@@ -1,0 +1,22 @@
+{
+  "" : {
+    "dependencies" : "/Users/Shared/DevTools-2-master/DerivedData/DevTools/Index.noindex/Build/Intermediates.noindex/DevTools.build/Debug-iphonesimulator/DevToolsAddAllowList.build/Objects-normal/arm64/DevToolsAddAllowList-primary.d",
+    "diagnostics" : "/Users/Shared/DevTools-2-master/DerivedData/DevTools/Index.noindex/Build/Intermediates.noindex/DevTools.build/Debug-iphonesimulator/DevToolsAddAllowList.build/Objects-normal/arm64/DevToolsAddAllowList-primary.dia",
+    "emit-module-dependencies" : "/Users/Shared/DevTools-2-master/DerivedData/DevTools/Index.noindex/Build/Intermediates.noindex/DevTools.build/Debug-iphonesimulator/DevToolsAddAllowList.build/Objects-normal/arm64/DevToolsAddAllowList-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/Shared/DevTools-2-master/DerivedData/DevTools/Index.noindex/Build/Intermediates.noindex/DevTools.build/Debug-iphonesimulator/DevToolsAddAllowList.build/Objects-normal/arm64/DevToolsAddAllowList-primary-emit-module.dia",
+    "pch" : "/Users/Shared/DevTools-2-master/DerivedData/DevTools/Index.noindex/Build/Intermediates.noindex/DevTools.build/Debug-iphonesimulator/DevToolsAddAllowList.build/Objects-normal/arm64/DevToolsAddAllowList-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/Shared/DevTools-2-master/DerivedData/DevTools/Index.noindex/Build/Intermediates.noindex/DevTools.build/Debug-iphonesimulator/DevToolsAddAllowList.build/Objects-normal/arm64/DevToolsAddAllowList-primary.swiftdeps"
+  },
+  "/Users/Shared/DevTools-2-master/ActionExtension/ActionViewController.swift" : {
+
+  },
+  "/Users/Shared/DevTools-2-master/Shared/Models.swift" : {
+
+  },
+  "/Users/Shared/DevTools-2-master/Shared/RuleValidator.swift" : {
+
+  },
+  "/Users/Shared/DevTools-2-master/Shared/SharedStore.swift" : {
+
+  }
+}
