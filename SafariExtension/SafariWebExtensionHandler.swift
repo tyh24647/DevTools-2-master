@@ -3,8 +3,8 @@ import Foundation
 
 /// Receives messages only through Safari's native-messaging extension boundary.
 /// The JavaScript background authenticates the UI sender before forwarding mutations.
-final class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
-    func beginRequest(with context: NSExtensionContext) {
+final class SafariWebExtensionHandler: NSObject, @MainActor NSExtensionRequestHandling {
+    @MainActor func beginRequest(with context: NSExtensionContext) {
         let item = context.inputItems.first as? NSExtensionItem
         let message = (item?.userInfo?[SFExtensionMessageKey] as? [String: Any]) ?? [:]
         let result: [String: Any]
@@ -18,7 +18,7 @@ final class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
         context.completeRequest(returningItems: [response], completionHandler: nil)
     }
 
-    private func handle(_ message: [String: Any]) throws -> [String: Any] {
+    @MainActor private func handle(_ message: [String: Any]) throws -> [String: Any] {
         switch message["operation"] as? String {
         case "snapshot":
             let config = try SharedStore.shared.read()

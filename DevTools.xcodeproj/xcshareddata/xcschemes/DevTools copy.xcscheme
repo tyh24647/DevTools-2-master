@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "2720"
-   version = "1.3">
+   wasCreatedForAppExtension = "YES"
+   version = "2.2">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -12,13 +13,8 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES"
             buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B7D9602A717E44E0418DEEF0"
-               BuildableName = "DevTools.app"
-               BlueprintName = "DevTools"
-               ReferencedContainer = "container:DevTools.xcodeproj">
-            </BuildableReference>
+            <AutocreatedTestPlanReference>
+            </AutocreatedTestPlanReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -28,21 +24,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0741F4FF3514C5A9DD47880B"
-               BuildableName = "DevToolsSafari.appex"
-               ReferencedContainer = "container:DevTools.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1B53A7A7BF32613E46C47A95"
-               BuildableName = "DevToolsAddBlacklist.appex"
+               BlueprintIdentifier = "1A54F22D30734B7E00CA2787"
+               BuildableName = "DevTools (macOS).app"
+               BlueprintName = "DevTools (macOS)"
                ReferencedContainer = "container:DevTools.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,6 +40,32 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "05CF322D67B502D9461C21C8"
                BuildableName = "DevToolsHide.appex"
+               ReferencedContainer = "container:DevTools.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B8EFCC1AD2146DFA9742C4B7"
+               BuildableName = "DevToolsDisable.appex"
+               ReferencedContainer = "container:DevTools.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "30BF6A9C02099693DC1A2642"
+               BuildableName = "DevToolsEnable.appex"
                ReferencedContainer = "container:DevTools.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -93,8 +103,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "30BF6A9C02099693DC1A2642"
-               BuildableName = "DevToolsEnable.appex"
+               BlueprintIdentifier = "1B53A7A7BF32613E46C47A95"
+               BuildableName = "DevToolsAddBlacklist.appex"
                ReferencedContainer = "container:DevTools.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -106,21 +116,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B8EFCC1AD2146DFA9742C4B7"
-               BuildableName = "DevToolsDisable.appex"
-               ReferencedContainer = "container:DevTools.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1A54F22D30734B7E00CA2787"
-               BuildableName = "DevTools (macOS).app"
+               BlueprintIdentifier = "0741F4FF3514C5A9DD47880B"
+               BuildableName = "DevToolsSafari.appex"
                ReferencedContainer = "container:DevTools.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -130,40 +127,30 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
-      <Testables>
-      </Testables>
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      shouldAutocreateTestPlan = "YES">
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
-      useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Volumes/Macintosh HD - External/Users/Shared/Library/Developer/Xcode"
+      useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      allowLocationSimulation = "YES">
+      allowLocationSimulation = "YES"
+      queueDebuggingEnabled = "No">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B7D9602A717E44E0418DEEF0"
-            BuildableName = "DevTools.app"
+            BlueprintIdentifier = "1A54F22D30734B7E00CA2787"
+            BuildableName = "DevTools (macOS).app"
+            BlueprintName = "DevTools (macOS)"
             ReferencedContainer = "container:DevTools.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <AdditionalOptions>
-         <AdditionalOption
-            key = "APP_DISTRIBUTOR_ID_OVERRIDE"
-            value = "Yes"
-            isEnabled = "YES">
-         </AdditionalOption>
-      </AdditionalOptions>
-      <StoreKitConfigurationFileReference
-         identifier = "../../Configuration/DevTools.storekit">
-      </StoreKitConfigurationFileReference>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -175,9 +162,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B7D9602A717E44E0418DEEF0"
-            BuildableName = "DevTools.app"
-            BlueprintName = "DevTools"
+            BlueprintIdentifier = "1A54F22D30734B7E00CA2787"
+            BuildableName = "DevTools (macOS).app"
+            BlueprintName = "DevTools (macOS)"
             ReferencedContainer = "container:DevTools.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -187,7 +174,6 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
-      revealArchiveInOrganizer = "YES"
-      allowsArchivingForSimulator = "YES">
+      revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
