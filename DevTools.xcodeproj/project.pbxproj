@@ -20,6 +20,30 @@
 		1A0675283072B6C100572786 /* PackageUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0675193072B6C100572786 /* PackageUpdater.swift */; };
 		1A0675293072B6C100572786 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A06751D3072B6C100572786 /* SettingsView.swift */; };
 		1A54F22A30733CB400CA2787 /* .prettierrc.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A54F22930733CB400CA2787 /* .prettierrc.json */; };
+		1A54F23530734B7E00CA2787 /* AdsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2CFB10306FA3F400AB0C2F /* AdsFeature.swift */; };
+		1A54F23630734B7E00CA2787 /* ProView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A06751A3072B6C100572786 /* ProView.swift */; };
+		1A54F23730734B7E00CA2787 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0675153072B6C100572786 /* AppModel.swift */; };
+		1A54F23830734B7E00CA2787 /* AdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0675143072B6C100572786 /* AdManager.swift */; };
+		1A54F23930734B7E00CA2787 /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A06751E3072B6C100572786 /* ToolsView.swift */; };
+		1A54F23A30734B7E00CA2787 /* PurchaseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A06751B3072B6C100572786 /* PurchaseStore.swift */; };
+		1A54F23B30734B7E00CA2787 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0675163072B6C100572786 /* Components.swift */; };
+		1A54F23C30734B7E00CA2787 /* DevToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0675173072B6C100572786 /* DevToolsApp.swift */; };
+		1A54F23D30734B7E00CA2787 /* ListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0675183072B6C100572786 /* ListsView.swift */; };
+		1A54F23E30734B7E00CA2787 /* AdManager 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F7BB030731A3D00A947F2 /* AdManager 2.swift */; };
+		1A54F23F30734B7E00CA2787 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A06751C3072B6C100572786 /* RootView.swift */; };
+		1A54F24030734B7E00CA2787 /* PackageUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0675193072B6C100572786 /* PackageUpdater.swift */; };
+		1A54F24130734B7E00CA2787 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A06751D3072B6C100572786 /* SettingsView.swift */; };
+		1A54F24230734B7E00CA2787 /* Shared/Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644032F41F2325C223F95B82 /* Shared/Models.swift */; };
+		1A54F24330734B7E00CA2787 /* Shared/SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5399B7D0B17BF2F627D0F784 /* Shared/SharedStore.swift */; };
+		1A54F24430734B7E00CA2787 /* Shared/RuleValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B4A9726ADA8894A632F1E /* Shared/RuleValidator.swift */; };
+		1A54F24530734B7E00CA2787 /* Shared/PackageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE479B4A981C348AE5ACC2F /* Shared/PackageCache.swift */; };
+		1A54F24730734B7E00CA2787 /* App/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5CCB0147A1F44705D7DBD4 /* App/Assets.xcassets */; };
+		1A54F24830734B7E00CA2787 /* Shared/tool-catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B8ED5325D95F4488614DB1B /* Shared/tool-catalog.json */; };
+		1A54F24930734B7E00CA2787 /* Shared/THIRD-PARTY-NOTICES.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65FEE2732BB321A822343761 /* Shared/THIRD-PARTY-NOTICES.txt */; };
+		1A54F24A30734B7E00CA2787 /* .prettierrc.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A54F22930733CB400CA2787 /* .prettierrc.json */; };
+		1A54F24B30734B7E00CA2787 /* Shared/PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9D47D2852C4D87F048C06374 /* Shared/PrivacyInfo.xcprivacy */; };
+		1A54F24D30734B7E00CA2787 /* GoogleUserMessagingPlatform in Frameworks */ = {isa = PBXBuildFile; productRef = 1A54F23230734B7E00CA2787 /* GoogleUserMessagingPlatform */; };
+		1A54F24E30734B7E00CA2787 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 1A54F23030734B7E00CA2787 /* GoogleMobileAds */; };
 		1A8F7BAD3073194800A947F2 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 1A8F7BAC3073194800A947F2 /* GoogleMobileAds */; };
 		1A8F7BAF3073195000A947F2 /* GoogleUserMessagingPlatform in Frameworks */ = {isa = PBXBuildFile; productRef = 1A8F7BAE3073195000A947F2 /* GoogleUserMessagingPlatform */; };
 		1A8F7BB130731A3D00A947F2 /* AdManager 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F7BB030731A3D00A947F2 /* AdManager 2.swift */; };
@@ -104,6 +128,8 @@
 		1A06751D3072B6C100572786 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		1A06751E3072B6C100572786 /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
 		1A54F22930733CB400CA2787 /* .prettierrc.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = .prettierrc.json; sourceTree = "<group>"; };
+		1A54F25230734B7E00CA2787 /* DevTools (macOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DevTools (macOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A54F25330734B7E00CA2787 /* DevTools copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DevTools copy-Info.plist"; path = "/Volumes/Macintosh HD - External/Users/Shared/DevTools-2-master/DevTools copy-Info.plist"; sourceTree = "<absolute>"; };
 		1A8F7BB030731A3D00A947F2 /* AdManager 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AdManager 2.swift"; sourceTree = "<group>"; };
 		1F2EA5DF34E491C4BF7191DE /* Configuration/Shared.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Configuration/Shared.entitlements; sourceTree = "<group>"; };
 		2A2CFB10306FA3F400AB0C2F /* AdsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsFeature.swift; sourceTree = "<group>"; };
@@ -156,6 +182,13 @@
 		16A8557B55E13D104A7B3FAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
+			);
+		};
+		1A54F24C30734B7E00CA2787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				1A54F24D30734B7E00CA2787 /* GoogleUserMessagingPlatform in Frameworks */,
+				1A54F24E30734B7E00CA2787 /* GoogleMobileAds in Frameworks */,
 			);
 		};
 		2A58D675E7DBF463D83DF8AE /* Frameworks */ = {
@@ -262,6 +295,7 @@
 				2A2CFB0A306FA34400AB0C2F /* Frameworks */,
 				2A2CFB10306FA3F400AB0C2F /* AdsFeature.swift */,
 				1A8F7BB030731A3D00A947F2 /* AdManager 2.swift */,
+				1A54F25330734B7E00CA2787 /* DevTools copy-Info.plist */,
 				FBDC4F23F93125BBEEAE800C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -277,6 +311,7 @@
 				8E3866597C919866280DBBCB /* DevToolsHide.appex */,
 				69C846F9CFC3BD269522CDEE /* DevToolsEnable.appex */,
 				0BC5C2A24655FC493A716A38 /* DevToolsDisable.appex */,
+				1A54F25230734B7E00CA2787 /* DevTools (macOS).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -328,6 +363,29 @@
 			productName = DevToolsSafari;
 			productReference = EA7156C16941170875F3E81E /* DevToolsSafari.appex */;
 			productType = "com.apple.product-type.app-extension";
+		};
+		1A54F22D30734B7E00CA2787 /* DevTools (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A54F24F30734B7E00CA2787 /* Build configuration list for PBXNativeTarget "DevTools (macOS)" */;
+			buildPhases = (
+				1A54F23430734B7E00CA2787 /* Sources */,
+				1A54F24630734B7E00CA2787 /* Resources */,
+				1A54F24C30734B7E00CA2787 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A54F22E30734B7E00CA2787 /* PBXTargetDependency */,
+				1A54F22F30734B7E00CA2787 /* PBXTargetDependency */,
+			);
+			name = "DevTools (macOS)";
+			packageProductDependencies = (
+				1A54F23030734B7E00CA2787 /* GoogleMobileAds */,
+				1A54F23230734B7E00CA2787 /* GoogleUserMessagingPlatform */,
+			);
+			productName = DevTools;
+			productReference = 1A54F25230734B7E00CA2787 /* DevTools (macOS).app */;
+			productType = "com.apple.product-type.application";
 		};
 		1B53A7A7BF32613E46C47A95 /* DevToolsAddBlacklist */ = {
 			isa = PBXNativeTarget;
@@ -524,11 +582,22 @@
 				05CF322D67B502D9461C21C8 /* DevToolsHide */,
 				30BF6A9C02099693DC1A2642 /* DevToolsEnable */,
 				B8EFCC1AD2146DFA9742C4B7 /* DevToolsDisable */,
+				1A54F22D30734B7E00CA2787 /* DevTools (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1A54F24630734B7E00CA2787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				1A54F24730734B7E00CA2787 /* App/Assets.xcassets in Resources */,
+				1A54F24830734B7E00CA2787 /* Shared/tool-catalog.json in Resources */,
+				1A54F24930734B7E00CA2787 /* Shared/THIRD-PARTY-NOTICES.txt in Resources */,
+				1A54F24A30734B7E00CA2787 /* .prettierrc.json in Resources */,
+				1A54F24B30734B7E00CA2787 /* Shared/PrivacyInfo.xcprivacy in Resources */,
+			);
+		};
 		1DF9F9E1E1275F3AC40E9188 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
@@ -621,6 +690,28 @@
 				AF2ECEE6B2DAF0E6E815A4E6 /* Shared/RuleValidator.swift in Sources */,
 			);
 		};
+		1A54F23430734B7E00CA2787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				1A54F23530734B7E00CA2787 /* AdsFeature.swift in Sources */,
+				1A54F23630734B7E00CA2787 /* ProView.swift in Sources */,
+				1A54F23730734B7E00CA2787 /* AppModel.swift in Sources */,
+				1A54F23830734B7E00CA2787 /* AdManager.swift in Sources */,
+				1A54F23930734B7E00CA2787 /* ToolsView.swift in Sources */,
+				1A54F23A30734B7E00CA2787 /* PurchaseStore.swift in Sources */,
+				1A54F23B30734B7E00CA2787 /* Components.swift in Sources */,
+				1A54F23C30734B7E00CA2787 /* DevToolsApp.swift in Sources */,
+				1A54F23D30734B7E00CA2787 /* ListsView.swift in Sources */,
+				1A54F23E30734B7E00CA2787 /* AdManager 2.swift in Sources */,
+				1A54F23F30734B7E00CA2787 /* RootView.swift in Sources */,
+				1A54F24030734B7E00CA2787 /* PackageUpdater.swift in Sources */,
+				1A54F24130734B7E00CA2787 /* SettingsView.swift in Sources */,
+				1A54F24230734B7E00CA2787 /* Shared/Models.swift in Sources */,
+				1A54F24330734B7E00CA2787 /* Shared/SharedStore.swift in Sources */,
+				1A54F24430734B7E00CA2787 /* Shared/RuleValidator.swift in Sources */,
+				1A54F24530734B7E00CA2787 /* Shared/PackageCache.swift in Sources */,
+			);
+		};
 		2B68B2B530956784F1BA96CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
@@ -700,6 +791,14 @@
 			isa = PBXTargetDependency;
 			productRef = 1A54F22730732FC000CA2787 /* GoogleUserMessagingPlatform */;
 		};
+		1A54F22E30734B7E00CA2787 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 1A54F22530732FC000CA2787 /* GoogleMobileAds */;
+		};
+		1A54F22F30734B7E00CA2787 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 1A54F22730732FC000CA2787 /* GoogleUserMessagingPlatform */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -755,7 +854,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(DT_BUNDLE_PREFIX)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -768,8 +867,8 @@
 				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = YES;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -803,6 +902,156 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Release;
+		};
+		1A54F25030734B7E00CA2787 /* Debug configuration for PBXNativeTarget "DevTools (macOS)" */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DD28FFEA1C9D6E543B033B /* Configuration/Project.xcconfig */;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALTERNATIVE_DISTRIBUTION_WEB = NO;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEPLOYMENT_LOCATION = YES;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_FILE_ACCESS_DOWNLOADS_FOLDER = readwrite;
+				ENABLE_FILE_ACCESS_MOVIES_FOLDER = readwrite;
+				ENABLE_FILE_ACCESS_MUSIC_FOLDER = readwrite;
+				ENABLE_FILE_ACCESS_PICTURE_FOLDER = readwrite;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = YES;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = YES;
+				ENABLE_RESOURCE_ACCESS_USB = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphoneos",
+				);
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "DevTools copy-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = Yes;
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = Yes;
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = Yes;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = Yes;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = Yes;
+				INSTALL_PATH = "/Volumes/Macintosh HD - External/Applications/";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(DT_BUNDLE_PREFIX)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = YES;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_SKIP_AUTOLINKING_FRAMEWORKS = No;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = "";
+				VERSIONING_SYSTEM = "apple-generic";
+				WATCHOS_DEPLOYMENT_TARGET = "";
+				XROS_DEPLOYMENT_TARGET = "";
+			};
+			name = Debug;
+		};
+		1A54F25130734B7E00CA2787 /* Release configuration for PBXNativeTarget "DevTools (macOS)" */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DD28FFEA1C9D6E543B033B /* Configuration/Project.xcconfig */;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALTERNATIVE_DISTRIBUTION_WEB = NO;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				AUTOMATION_APPLE_EVENTS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEPLOYMENT_LOCATION = YES;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_FILE_ACCESS_DOWNLOADS_FOLDER = readwrite;
+				ENABLE_FILE_ACCESS_MOVIES_FOLDER = readwrite;
+				ENABLE_FILE_ACCESS_MUSIC_FOLDER = readwrite;
+				ENABLE_FILE_ACCESS_PICTURE_FOLDER = readwrite;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = YES;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = YES;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphoneos",
+				);
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "DevTools copy-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = Yes;
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = Yes;
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = Yes;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = Yes;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = Yes;
+				INSTALL_PATH = "/Volumes/Macintosh HD - External/Applications/";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(DT_BUNDLE_PREFIX)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = YES;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = YES;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_SKIP_AUTOLINKING_FRAMEWORKS = No;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = "";
+				VERSIONING_SYSTEM = "apple-generic";
+				WATCHOS_DEPLOYMENT_TARGET = "";
+				XROS_DEPLOYMENT_TARGET = "";
 			};
 			name = Release;
 		};
@@ -1275,7 +1524,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(DT_BUNDLE_PREFIX)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1285,8 +1534,8 @@
 				RUNTIME_EXCEPTION_DEBUGGING_TOOL = YES;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1316,6 +1565,14 @@
 			buildConfigurations = (
 				25969A5E7CEB1464ED1CAF64 /* Debug configuration for PBXNativeTarget "DevToolsShow" */,
 				0AFAD0B9E68781A7BE44218A /* Release configuration for PBXNativeTarget "DevToolsShow" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		1A54F24F30734B7E00CA2787 /* Build configuration list for PBXNativeTarget "DevTools (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A54F25030734B7E00CA2787 /* Debug configuration for PBXNativeTarget "DevTools (macOS)" */,
+				1A54F25130734B7E00CA2787 /* Release configuration for PBXNativeTarget "DevTools (macOS)" */,
 			);
 			defaultConfigurationName = Release;
 		};
@@ -1378,6 +1635,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		1A54F23130734B7E00CA2787 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.11.0;
+			};
+		};
+		1A54F23330734B7E00CA2787 /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-user-messaging-platform";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
 		1A8F7BAA307318BF00A947F2 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads";
@@ -1405,6 +1678,16 @@
 		1A54F22730732FC000CA2787 /* GoogleUserMessagingPlatform */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 1A8F7BAB307318C800A947F2 /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */;
+			productName = GoogleUserMessagingPlatform;
+		};
+		1A54F23030734B7E00CA2787 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A54F23130734B7E00CA2787 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+		1A54F23230734B7E00CA2787 /* GoogleUserMessagingPlatform */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A54F23330734B7E00CA2787 /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */;
 			productName = GoogleUserMessagingPlatform;
 		};
 		1A8F7BAC3073194800A947F2 /* GoogleMobileAds */ = {
