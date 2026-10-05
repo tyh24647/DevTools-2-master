@@ -19,6 +19,7 @@
 		1A0675273072B6C100572786 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A06751C3072B6C100572786 /* RootView.swift */; };
 		1A0675283072B6C100572786 /* PackageUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0675193072B6C100572786 /* PackageUpdater.swift */; };
 		1A0675293072B6C100572786 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A06751D3072B6C100572786 /* SettingsView.swift */; };
+		1A54F22A30733CB400CA2787 /* .prettierrc.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A54F22930733CB400CA2787 /* .prettierrc.json */; };
 		1A8F7BAD3073194800A947F2 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 1A8F7BAC3073194800A947F2 /* GoogleMobileAds */; };
 		1A8F7BAF3073195000A947F2 /* GoogleUserMessagingPlatform in Frameworks */ = {isa = PBXBuildFile; productRef = 1A8F7BAE3073195000A947F2 /* GoogleUserMessagingPlatform */; };
 		1A8F7BB130731A3D00A947F2 /* AdManager 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F7BB030731A3D00A947F2 /* AdManager 2.swift */; };
@@ -102,6 +103,7 @@
 		1A06751C3072B6C100572786 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		1A06751D3072B6C100572786 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		1A06751E3072B6C100572786 /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
+		1A54F22930733CB400CA2787 /* .prettierrc.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = .prettierrc.json; sourceTree = "<group>"; };
 		1A8F7BB030731A3D00A947F2 /* AdManager 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AdManager 2.swift"; sourceTree = "<group>"; };
 		1F2EA5DF34E491C4BF7191DE /* Configuration/Shared.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Configuration/Shared.entitlements; sourceTree = "<group>"; };
 		2A2CFB10306FA3F400AB0C2F /* AdsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsFeature.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 		325F10A6957A34D66CB8C0E4 = {
 			isa = PBXGroup;
 			children = (
+				1A54F22930733CB400CA2787 /* .prettierrc.json */,
 				FB621F852028399F1E3F0F3F /* SafariExtension/Resources/vendor */,
 				AB1968ECBE82CECAE6CE68A8 /* SafariExtension/Resources/icons */,
 				1A0675143072B6C100572786 /* AdManager.swift */,
@@ -532,6 +535,7 @@
 				6327167A68257EFBCB21D133 /* App/Assets.xcassets in Resources */,
 				E6AA1D9A88D79FCD793BC1CA /* Shared/tool-catalog.json in Resources */,
 				399F0831031996E0F3875B06 /* Shared/THIRD-PARTY-NOTICES.txt in Resources */,
+				1A54F22A30733CB400CA2787 /* .prettierrc.json in Resources */,
 				59AE6E3276EBDD9D4481F69A /* Shared/PrivacyInfo.xcprivacy in Resources */,
 			);
 		};
@@ -785,6 +789,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Configuration/Show-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
@@ -870,6 +875,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Configuration/Hide-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
@@ -892,6 +898,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Configuration/Show-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
@@ -914,6 +921,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Configuration/AddBlacklist-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
@@ -936,6 +944,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Configuration/Disable-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
@@ -958,6 +967,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Configuration/AddBlacklist-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
@@ -980,9 +990,10 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Configuration/Safari-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1064,6 +1075,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Configuration/Enable-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
@@ -1086,6 +1098,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Configuration/Hide-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
@@ -1108,6 +1121,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Configuration/Disable-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
@@ -1130,6 +1144,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Configuration/AddAllowList-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
@@ -1152,9 +1167,10 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Configuration/Safari-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1174,6 +1190,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Configuration/AddAllowList-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
@@ -1196,6 +1213,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Configuration/Enable-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
